@@ -202,8 +202,8 @@ if __name__ == '__main__':
     product6 = Product("Апельсин", 110, random.randint(0, 10), category3)
     # Product.print_products()
     # Category.print_categories()
-    login = input("Введите логин")
-    password = input("Введите пароль")
+    login = input("Введите логин: ")
+    password = input("Введите пароль: ")
 
     User.enter_in_market(login, password)
 
